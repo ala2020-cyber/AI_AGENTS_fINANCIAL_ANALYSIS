@@ -64,7 +64,6 @@ def authenticate_user(db: Session, username: str, password: str):
     if not user or not verify_password(password, user.hashed_password):
         return False
     return user
-    
 
 # FastAPI App
 app = FastAPI()
@@ -119,4 +118,3 @@ def verify_token(token: str):
         return {"username": username}
     except JWTError:
         raise HTTPException(status_code=403, detail="Token invalide")
-

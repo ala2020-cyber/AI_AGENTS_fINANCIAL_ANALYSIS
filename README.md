@@ -56,3 +56,12 @@ pip install -r requirements.txt
 MISTRAL_API_KEY=your_mistral_api_key
 MISTRAL_MODEL=mistral-medium
 ```
+### Lancement de projet
+## - pour lancer le Backend, se remettre sur l'environement. Puis lancer cette commande :
+```bash
+uvicorn backend:app --reload
+```
+## - pour lancer la partie Front, se remettre sur l'environement. Puis lancer cette commande :
+```bash
+python finagent-v2.py
+```
