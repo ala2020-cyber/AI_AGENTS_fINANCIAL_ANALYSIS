@@ -31,7 +31,7 @@ AI_AGENTS est un projet Python qui met en œuvre un agent conversationnel intell
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/AI_AGENTS.git
+git clone https://github.com/ala2020-cyber/AI_AGENTS_fINANCIAL_ANALYSIS.git
 cd AI_AGENTS
 ```
 
